@@ -1,0 +1,9 @@
+exports.randBool = require("./src/randBool.js");
+exports.randInt = require("./src/randInt.js");
+exports.randFloat = require("./src/randFloat.js");
+exports.randStr = require("./src/randStr.js");
+exports.DEFAULT_STRING_LENGTH = exports.randStr.DEFAULT_STRING_LENGTH;
+exports.DEFAULT_STRING_CHARS = exports.randStr.DEFAULT_STRING_CHARS;
+exports.randDate = require("./src/randDate.js");
+exports.randIndex = require("./src/randIndex.js");
+exports.randPick = require("./src/randPick.js");
